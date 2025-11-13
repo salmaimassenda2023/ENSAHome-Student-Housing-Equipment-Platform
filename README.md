@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 ENSAHome - Student Housing & Equipment Platform
 
-## Getting Started
+![ENSAHome Banner](./screenshots/home-page.png)
 
-First, run the development server:
+## 📋 Overview
 
+ENSAHome is a modern web platform designed specifically for ENSA students to find housing near campus and buy/sell used educational equipment. Built with Next.js and Tailwind CSS, this project showcases a clean, intuitive interface with responsive design principles.
+
+## ✨ Features
+
+- 🏘️ **Housing Listings** - Browse available apartments and rooms near ENSA campus
+- 💰 **Price Display** - Clear pricing information (DH/month)
+- 🖼️ **Image Gallery** - Visual property showcases with navigation
+- 🛒 **Equipment Marketplace** - Buy and sell used educational materials
+- 📱 **Responsive Design** - Optimized for all devices
+- 🇫🇷 **French Localization** - Tailored for Moroccan students
+
+## 🖼️ Screenshots
+
+### Home Page
+![Home Page](./screenshots/home-page.png)
+*Browse available housing options near your campus*
+
+### Property Listings
+![Property Listings](./screenshots/listings.png)
+*Detailed property cards with pricing and images*
+
+## 🛠️ Built With
+
+- **Next.js** - React framework for production
+- **Tailwind CSS** - Utility-first CSS framework
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI component library
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16.x or higher
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/[your-username]/ensahome.git
+cd ensahome
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
+```
+ensahome/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # React components
+│   ├── pages/       # Next.js pages
+│   ├── styles/      # Global styles
+│   └── utils/       # Utility functions
+├── screenshots/     # Project screenshots
+└── README.md
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Current Status
 
-## Learn More
+**Frontend Complete** ✅
 
-To learn more about Next.js, take a look at the following resources:
+This project currently focuses on the frontend implementation, demonstrating:
+- Modern UI/UX design
+- Responsive layouts
+- Component architecture
+- Navigation and routing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Backend** - Planned for future development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design Highlights
 
-## Deploy on Vercel
+- Clean, minimalist interface
+- Green accent colors (#00C853) for CTAs
+- Card-based layout for easy scanning
+- Smooth hover effects and transitions
+- Mobile-first responsive design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Future Enhancements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] User authentication system
+- [ ] Backend API integration
+- [ ] Property posting functionality
+- [ ] Search and filter options
+- [ ] User profiles and favorites
+- [ ] Messaging system between users
+- [ ] Payment integration
+
+## 👨‍💻 Author
+
+**[Your Name]**
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+- Portfolio: [your-portfolio.com](https://your-portfolio.com)
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Designed for ENSA students community
+- Inspired by modern real estate platforms
+- Built with modern web technologies
+
+---
+
+⭐ If you find this project interesting, please give it a star!
